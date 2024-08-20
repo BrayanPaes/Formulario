@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulário do Cliente</title> 
+  <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body>
+  <div class="box">
+     <fieldset>
+    	<h1>Formulário do Cliente</h1>
+    	  <br><br>
+
+    	   <!--começo do nome, email e telefone-->
+    	   <div class="inputBox">
+    		   <input type="text" name="Nome" id="Nome" class="inputUser" required>
+    		   <label for="Nome"  >Nome completo</label>
+    	   </div>
+       <br> 
+
+    <div class="inputBox">
+      <input type="Email" name="Email" id="Email" class="inputUser" required>
+      <label for="Nome">Email</label>
+    </div>
+      <br> 
+
+        <div class="inputBox">
+        <input type="telefone" name="telefone" id="telefone" class="inputUser" required>
+        <label for="Nome">Telefone</label>
+
+            <!-- e aqui é o fim-->  <br><br>
+
+ <p>Sexo</p>
+ <!--começo do genero-->
+  	<input type="radio" id="Feminino" name="Genero" value="Feminino" required>
+  	  <label for="Feminino">Feminino</label>
+  	<br>
+  	    <input type="radio" id="masculino" name="Genero" value="masculino" required>
+  	      <label for="masculino">Masculino</label>
+           <br>
+   <!-- e aqui é o fim-->
+   <br><br>
+
+        <!-- começo da date de nascimento, cidade, estado e endereço-->
+    
+     <label for="data_nascimento"><strong>Data de nascimento</strong></label>
+      <input type="date" name="data_nascimento" id="data_nascimento"  required> 
+           <br>
+
+     <div class="inputBox">
+        <input type="text" name="cidade"id="cidade" class="inputUser" required>
+        <label for="cidade" >Cidade</label>
+     </div>
+      <br>
+
+     <div class="inputBox">
+        <input type="text" name="estado" id="estado" class="inputUser" required>
+        <label for="estado"  >Estado</label>
+     </div>
+
+     <br>
+
+     <div class="inputBox">
+     <input type="text"  id="endereco" class="inputUser" required>
+   <label for="endereco"  >Endereço</label>
+      </div>
+      <!-- e aqui é o fim-->
+
+      <br><br>
+      <input type="submit" name="submit" id="submit">
+      </fieldset>
+      
+</body>
+</html>
